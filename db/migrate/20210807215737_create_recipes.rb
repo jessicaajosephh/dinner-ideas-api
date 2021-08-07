@@ -6,7 +6,7 @@ class CreateRecipes < ActiveRecord::Migration[6.1]
       t.integer :prep_time
       t.integer :cook_time
       t.text :instructions
-      t.integer :likes
+      t.integer :likes, :default => 0
 
       t.timestamps
     end
