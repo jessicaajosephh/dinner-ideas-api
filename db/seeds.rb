@@ -14,6 +14,6 @@ Recipe.create(title: "Personal Caesar Salad", ingredients: "1 cup of Romaine Let
 Comment.create(content: "Yum I love grilled cheese!", recipe_id: 1)
 Comment.create(content: "Always a favorite in my house!", recipe_id: 2)
 Comment.create(content: "Just how I like it!", recipe_id: 3)
-Comment.create(content: "Hmm not my favorite recipe, needs more flavor!!", post_id: 3)
+Comment.create(content: "Hmm not my favorite recipe, needs more flavor!!", recipe_id: 3)
 
 puts "Info Seeded"
